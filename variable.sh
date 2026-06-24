@@ -4,11 +4,11 @@ Timestamp=$(date)
 
 echo "Time is $Timestamp"
 
-Start_time=$(date + %s)
+Start_time=$(date +%s)
 
 sleep 10
 
-End_time=$(date + %s)
+End_time=$(date +%s)
 
 Final_time=$(($End_time-$Start_time))
 
