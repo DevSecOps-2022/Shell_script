@@ -12,5 +12,7 @@ End_time=$(date +%s)
 
 Final_time=$(($End_time-$Start_time))
 
+echo ""
+
 echo "Total script executed time is $Final_time"
 
