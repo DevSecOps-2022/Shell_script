@@ -10,4 +10,5 @@ elif
     [ $number -gt 10]; then
     echo "Given $number is greater than 10"
 else
-    echo "Gien $number is equal to 10"
+    echo "Given $number is equal to 10"
+fi
