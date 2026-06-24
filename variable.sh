@@ -6,7 +6,7 @@ echo "Time is $Timestamp"
 
 Start_time=$(date +%s)
 
-sleep 10
+sleep 20
 
 End_time=$(date +%s)
 
