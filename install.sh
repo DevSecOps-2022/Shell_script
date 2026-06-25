@@ -6,6 +6,7 @@ userid=$(id -u)
 
 if [ $userid -ne 0 ]; then
     echo "Please run this script with root user"
+    exit 1
 fi
 
 # check software is already installed 
