@@ -17,7 +17,7 @@ if [ $? -eq 0 ]; then
     echo "software is alredy installed"
 else
     echo "Installing software"
-    dnf install mysql -y
+    dnf install mysqlrrrrm -y
 
     if  [ $? -eq 0 ]; then
         echo "MYSQL software is installed ......SUCCESS"
