@@ -21,6 +21,7 @@ else
 
     if  [ $? eq 0 ]; then
         echo "MYSQL software is installed ......SUCCESS"
+        exit 1
     else
         echo "MYSQL software is installation .......FAILED"
     fi
