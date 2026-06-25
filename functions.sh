@@ -29,5 +29,5 @@ if [ $? -eq 0 ]; then
 else
     echo "Installing software"
     dnf install mysql -y
-    validate $? MYSQL
+    validate $? MYSQL # calling function
 fi
